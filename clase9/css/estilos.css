@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+/*------------- Header ---------------*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    top: 0px;
+    min-height: 420px;
+}
+
+#logo{
+    width: 170px;
+    padding-left: 20px;
+    padding-top: 22px;
+}
+
+#banner{
+    width: 100%;
+    height: 380px;
+    position: relative;
+    top: 40px;
+}
+
+#form{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+nav{
+    background-color: black;
+    position: fixed;  
+    bottom: 618px; 
+    /* align-content: center; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    min-width: 100vw;
+    height: 85px;
+}
+
+nav ul{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0; 
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;  
+}
+
+a{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.903);
+    margin: 0px 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(127, 0, 0, 0.33);
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 15px 35px;
+}
+
+a:hover{
+    background-color: rgba(84, 83, 83, 0.792) ;
+    box-shadow: 5px 5px 15px rgb(97, 3, 3) ; 
+    cursor:pointer;
+
+}
+
+#a-logo{
+    background-color: rgba(255, 255, 255, 0) ;
+    padding: 0px;
+}
+
+#a-logo:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px;
+}
+
+
+/* ------------------------------------------------------------ */
+
+/*------------- Main ---------------*/
+
+main{
+    gap: 63px;
+}
+
+#peliculas{
+    scroll-margin-top: 400px;
+}
+
+#series{
+    scroll-margin-top: 400px;
+}
+
+#populares{
+    scroll-margin-top: 400px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+}
+
+#uno{
+    position: relative;
+    bottom: 60px;
+}
+
+section{
+    margin: 20px;
+    background-color: rgba(127, 0, 0, 0.33);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    width: 1100px;
+    margin-left: 20px;
+    border-radius: 20px;
+    
+}
+
+
+#principal h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 60px;
+}
+
+article{
+    margin: 0px;
+}
+
+section img:hover{
+    width: 166px;
+    height: 181px;
+    box-shadow: 12px 12px 15px rgb(0, 0, 0) ; 
+    cursor:pointer;
+} 
+
+
+h3{
+    color: yellow;
+}
+
+.imgs{
+    margin: 20px 0px;
+    width: 111px;
+    height: 131px;
+}
+
+
+#mejor-puntuadas .art1{
+    order: 2;
+}
+
+#mejor-puntuadas .art2{
+    order: 4;
+}
+
+#mejor-puntuadas .art3{
+    order: 1;
+}
+
+#mejor-puntuadas .art4{
+    order: 3;
+}
+
+/* ------------------------------------------------------------ */
+
+/*------------- Mas Vistas ---------------*/
+
+
+#masvistas section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(127, 0, 0, 0.33) ;
+    height: fit-content;
+    width: fit-content;
+    justify-content:start;
+    align-items: start;
+    max-width: 400px;
+    min-height: 1206px;
+    margin: 20px;
+    gap: 50px; 
+}
+
+#masvistas article{
+    margin: 0px 40px;
+}
+
+#masvistas img{
+    width: 144px;
+    height: 161px;
+}
+
+#masvistas img:hover{
+    width: 166px;
+    height: 181px;
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.86) ; 
+    cursor:pointer;
+} 
+
+#masvistas h2{
+    display: flex;
+    justify-content: center;
+    color: white;  
+}
+
+#masvistas article h2{
+    display: flex;
+    justify-content: start;
+}
+
+#masvistas .art1{
+    order: 4;
+}
+
+#masvistas .art2{
+    order: 3;
+}
+
+#masvistas .art3{
+    order: 2;
+}
+
+#masvistas .art4{
+    order: 1;
+}
+
+#masvistas img{
+    margin: 15px;
+}
+
+
+/*------------------------------------------------------------*/
+
+/*------------- Footer ---------------*/
+
+footer{
+    background-color: rgb(74, 74, 74);;
+    height: 280px;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center; 
+    height: 100px;
+    align-items:end;
+    margin-top: 0;
+    padding: 0;
+}
+
+footer a{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+footer a:hover{
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(173, 19, 19);
+    box-shadow: 0px 0px;
+}
+
+footer #a-logo{
+    position: relative;
+    left: 638px;
+    top: 25px;
+}
+
+footer #logo{
+    padding: 0;
+    width: 220px;
+}
+
+footer h3{
+    margin-top: 40px;
+    text-align: center;
+    color: grey;
+}
+/*------------------------------------------------------------*/

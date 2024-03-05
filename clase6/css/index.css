@@ -1,0 +1,124 @@
+/* Selector:pseudoclase{propiedad: valor} */
+
+a:visited{
+    background-color: black;
+    color: white;
+}
+
+a:link{
+    background-color: red;
+    color: white;
+}
+
+a:hover{
+    background-color: brown;
+    color: white;
+}
+
+a:active{
+    color: black;
+    background-color: pink;
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+    width: 50%;
+    height: 50px;
+    margin: 10px 5px 5px 10px;
+    padding: 14px 10px;
+    border-bottom: 10px solid black;
+}
+
+article{
+    min-height: 500px ;
+    background-color: black;
+}
+
+#atributos{
+    background-color: blueviolet;
+    padding: 5px 10px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;;
+}
+
+#lista li{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    width: 15%;
+    border-bottom: 5px dotted yellow;
+}
+
+/* Pseudo elemento */
+#lista li::first-letter{
+    color: blue;
+    font-size: 20px;
+}
+
+/* Selector dfe clase */
+
+.menu{
+
+}
+
+p{
+    background-color: aqua;
+    color: black;
+    padding: 50px;
+}
+
+p::first-line{
+    background-color: blue;
+    padding: 160px;
+    margin: 50px;
+}
+
+p::after{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    background-color: yellow;
+    width: 250px;
+    height: 80px;
+    content: "Hola a todos";
+    display: none;
+}
+
+p::before{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    background-color: blue;
+    width: 250px;
+    height: 80px;
+    content: "Soy el despues";
+    display: none;
+}
+
+.divs{
+    background-color: rgb(10, 201, 0)
+}
+
+#uno{ 
+    background-color: red;
+   
+}
+
+ #dos{ 
+    background-color: black;
+}
+
+#tres{ 
+    background-color: blue;
+}
+
+.divclass{
+    margin: 1%;
+    width: 30%;
+    height: 120px;
+    float: left;
+}
